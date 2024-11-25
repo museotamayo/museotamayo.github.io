@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@charset "utf-8";
+/* CSS Document */
+
+/*INDEX ----------------------------------------------------------------------------------------- */
+/*MENU -------------------------------------------------------------------------*/
+.nav-link text-dark fw-bold:hover{
+	 color: #E53935; 
+}
+@media (max-width: 767.98px) {
+  .header-pc-only {
+    display: none;
+  }
+}
+h1{
+	 font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+	color: #E53935;
+}
+h5{
+	font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+	color: #E53935;
+}
+p{
+	font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+#menu a:hover{
+	 color: #E53935; 
+	font-weight: bold;
+}
+/* Estilos para la tarjeta "Bienal" */
+#tarjeta-bienal a {
+  text-decoration: none;
+  color: white; /* Mantiene el color blanco del texto */
+
+}
+#tarjeta-bienal{
+	border-radius: 20px;
+}
+#tarjeta-bienal a:hover {
+  color: white; 
+ font-weight: bold;
+}
+
+
+/* Estilos para la tarjeta "Visita" */
+#tarjeta-visita{
+	border-radius: 20px;
+}
+#tarjeta-visita a {
+  text-decoration: none;
+  color: black; /* Mantiene el color negro del texto */
+}
+
+#tarjeta-visita a:hover {
+  color: black; 
+	font-weight: bold;
+}
+
+/* Estilos para la tarjeta "Jazz" */
+#tarjeta-jazz{
+	border-radius: 20px;
+}
+#tarjeta-jazz a {
+  text-decoration: none;
+  color: black; /* Mantiene el color negro del texto */
+}
+
+#tarjeta-jazz a:hover {
+   color: black; 
+	font-weight: bold;
+}
+
+/* Estilos para la tarjeta "Servicio Social" */
+#tarjeta-servicio{
+	border-radius: 20px;
+}
+#tarjeta-servicio a {
+  text-decoration: none;
+  color: white; /* Mantiene el color blanco del texto */
+}
+
+#tarjeta-servicio a:hover {
+ color: white; 
+ font-weight: bold;
+}
+
+#david_medalla a{
+	 text-decoration: none;
+ color: #E53935; /* Mantiene el color negro del texto */
+}
+#david_medalla a:hover {
+	font-size: 110%;
+}
+
+#otros_mundos a{
+	 text-decoration: none;
+ color: #E53935; /* Mantiene el color negro del texto */
+}
+#otros_mundos a:hover {
+	font-size: 110%;
+}
+#luzia_paulo a{
+	 text-decoration: none;
+  color: #E53935; /* Mantiene el color negro del texto */
+}
+#luzia_paulo a:hover {
+	font-size: 110%;
+}
+
+
+#victoria_martinez a{
+	 text-decoration: none;
+  color: white; /* Mantiene el color blanco del texto */
+}
+#jenelle_esparza a{
+	 text-decoration: none;
+  color: white; /* Mantiene el color blanco del texto */
+}
+#andre_keichian a{
+	 text-decoration: none;
+  color: white; /* Mantiene el color blanco del texto */
+}
+/*INDEX ----------------------------------------------------------------------------------- */
+
+
+
+
+
+/*EXPOSICIONES ----------------------------------------------------------------------------------- */
+#precios a{
+	text-decoration: none;
+  color: black; /* Mantiene el color negro del texto */
+}
+#david_medalla_exposiciones a {
+	 text-decoration: none;
+  color: #E53935; /* Mantiene el color negro del texto */
+}
+#david_medalla_exposiciones a:hover {
+	font-size: 110%;
+}
+
+#lucia_paulo_exposiciones a {
+	 text-decoration: none;
+  color: #E53935; /* Mantiene el color negro del texto */
+}
+#lucia_paulo_exposiciones a:hover {
+	font-size: 110%;
+}
+
+/*EXPOSICIONES ----------------------------------------------------------------------------------- */
+
+
+
+
+/*AGENDA ----------------------------------------------------------------------------------------------*/
+/* Estilos generales para las tarjetas */
+.text-container {
+  padding: 20px;
+}
+
+.text-container.card {
+  background-color: #ff4d4d; /* Color rojo */
+  color: white;
+  border-radius: 8px;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+/* Diseño responsivo */
+@media (max-width: 768px) {
+  .bienal,
+  .visita-arquitectonica,
+  .noches-jazz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bienal .text-container,
+  .visita-arquitectonica .text-container,
+  .noches-jazz .text-container {
+    order: 2; /* Mueve los textos debajo de las imágenes */
+    width: 90%;
+  }
+
+  .bienal img,
+  .visita-arquitectonica img,
+  .noches-jazz img {
+    order: 1; /* Mantén las imágenes arriba */
+    width: 100%;
+  }
+
+  .text-container {
+    width: 90%;
+  }
+
+  .text-container.card {
+    margin-top: 10px;
+  }
+}
+
+#enlace-bienal img {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  cursor: pointer; /* Muestra un puntero de enlace */
+}
+
+#enlace-bienal img:hover {
+  transform: scale(1.1); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  opacity: 0.8; /* Cambia la opacidad al pasar el mouse */
+}
+#nochez_jazz a {
+	 text-decoration: none;
+  color: #E53935; /* Mantiene el color negro del texto */
+}
+#nochez_jazz a:hover {
+	font-size: 110%;
+}
+#enlace-arq a {
+	 text-decoration: none;
+  color: #E53935; /* Mantiene el color negro del texto */
+}
+#enlace-arq a:hover {
+	font-size: 110%;
+}
+/*AGENDA ----------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+/* Ocultar la vista móvil por defecto */
+.mobile-view {
+  display: none;
+}
+
+/* Media Query para dispositivos móviles */
+@media screen and (max-width: 768px) {
+  .desktop-view {
+    display: none;
+  }
+
+  .mobile-view {
+    display: block;
+  }
+
+  details summary {
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  details ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+}
+

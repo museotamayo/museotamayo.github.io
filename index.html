@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Museo Tamayo</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="css/stylepage.css" rel="stylesheet">
+  </head>
+  <body>
+  	<!-- body code goes here -->
+ <div class="container-fluid p-0">
+    <!-- Header -->
+   <header class="text-center py-3 bg-light header-pc-only">
+  <h1 style="font-size: 90px">MUSEO TAMAYO</h1>
+</header>
+
+    <!-- Menu---------------------------------------------------------------------------------------------------------- -->
+      <nav id="menu" class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+    <div class="container-fluid">
+      <!-- Logo o título visible solo en móvil -->
+      <a class="navbar-brand fw-bold d-lg-none" href="#">Museo Tamayo</a>
+      <!-- Botón de hamburguesa para dispositivos móviles -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuHamburguesa" aria-controls="menuHamburguesa" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Menú desplegable -->
+      <div class="collapse navbar-collapse" id="menuHamburguesa">
+        <ul class="navbar-nav mx-auto">
+          <!-- Menú de 'Visita' -->
+          <li class="nav-item">
+            <a class="nav-link text-dark fw-bold" href="../museotamayo/html/visita.html">Visita</a>
+          </li>
+          <!-- Menú desplegable de 'Exposición' -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark fw-bold" href="#" id="exposicionDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Exposición</a>
+            <ul class="dropdown-menu" aria-labelledby="exposicionDropdown">
+              <li><a class="dropdown-item" href="../museotamayo/html/exposiciones.html">Exposiciones</a></li>
+              <li><a class="dropdown-item" href="#">Actuales</a></li>
+              <li><a class="dropdown-item" href="#">Pasadas</a></li>
+              <li><a class="dropdown-item" href="#">Próximas</a></li>
+              <li><a class="dropdown-item" href="#">Proyectos en Línea</a></li>
+            </ul>
+          </li>
+          <!-- Menú de 'Agenda' -->
+          <li class="nav-item">
+            <a class="nav-link text-dark fw-bold" href="../museotamayo/html/agenda.html">Agenda</a>
+          </li>
+          <!-- Menú desplegable de 'Colección' -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark fw-bold" href="#" id="coleccionDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Colección</a>
+            <ul class="dropdown-menu" aria-labelledby="coleccionDropdown">
+              <li><a class="dropdown-item" href="#">Colección</a></li>
+              <li><a class="dropdown-item" href="#">Archivo</a></li>
+              <li><a class="dropdown-item" href="#">Colección comentada</a></li>
+            </ul>
+          </li>
+          <!-- Menú desplegable de 'Acerca' -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark fw-bold" href="#" id="acercaDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Acerca</a>
+            <ul class="dropdown-menu" aria-labelledby="acercaDropdown">
+              <li><a class="dropdown-item" href="#">Acerca del Museo</a></li>
+              <li><a class="dropdown-item" href="#">Olga y Rufino</a></li>
+              <li><a class="dropdown-item" href="#">Archivo Tamayo</a></li>
+              <li><a class="dropdown-item" href="#">Colección</a></li>
+              <li><a class="dropdown-item" href="#">Edificio</a></li>
+              <li><a class="dropdown-item" href="#">Directorio</a></li>
+            </ul>
+          </li>
+          <!-- Menú de 'Fundación' -->
+          <li class="nav-item">
+            <a class="nav-link text-dark fw-bold" href="../museotamayo/html/fundacion.html">Fundación</a>
+          </li>
+          <!-- Menú desplegable de 'Participa' -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark fw-bold" href="#" id="participaDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Participa</a>
+            <ul class="dropdown-menu" aria-labelledby="participaDropdown">
+              <li><a class="dropdown-item" href="#">Servicio Social</a></li>
+              <li><a class="dropdown-item" href="#">Prácticas Profesionales</a></li>
+              <li><a class="dropdown-item" href="#">Pasantías</a></li>
+              <li><a class="dropdown-item" href="#">Voluntariado</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+ <!-- Menu---------------------------------------------------------------------------------------------------------- -->
+	 
+	 
+    <!-- Main Content -->
+   <main class="container my-4">
+        <div class="row">
+        <!-- Columna Izquierda: Tarjetas -->
+<div id="botones_inicio" class="col-lg-6 mx-auto">
+    <div class="row">
+      <!-- Primera Tarjeta -->
+		
+      <div style="height:160px" class="col-md-6 mb-4">
+  <div id="tarjeta-bienal" 
+       class="card text-center p-4 bg-danger text-white h-100 mx-auto"
+       style="width: 100%; max-width: 330px;">
+    <a href="https://www.museotamayo.org/agenda/convocatoria-xx-bienal-de-pintura-rufino-tamayo">
+      <p class="mb-3 fw-bold">25 AGO - 16 MAR</p>
+<p id="titulo_25ago" class="mb-0">Convocatoria: XX Bienal de pintura Rufino Tamayo</p>
+    </a>
+  </div>
+</div>
+		
+		
+      <!-- Segunda Tarjeta -->
+     <div class="col-md-6 mb-4">
+  <div id="tarjeta-visita" 
+       class="card text-center p-3 border border-dark h-100 mx-auto"
+       style="width: 100%; max-width: 320px; height: auto;">
+    <a href="https://www.museotamayo.org/agenda/visita-guiada-arquitectonica-por-el-museo-tamayo">
+      <p class="mb-1 fw-bold">19 OCT</p>
+      <p class="mb-0">Visita guiada arquitectónica</p>
+    </a>
+  </div>
+</div>
+		
+		
+    </div>
+    <div class="row">
+      <!-- Tercera Tarjeta -->
+      <div class="col-md-6 mb-4">
+  <div id="tarjeta-jazz" 
+       class="card text-center p-3 border border-dark h-100 mx-auto" 
+       style="width: 100%; max-width: 320px; height: auto;">
+    <a href="https://www.museotamayo.org/agenda/noches-de-jazz-presenta-la-mancha-cuarteto">
+      <p class="mb-1 fw-bold">27 NOV</p>
+      <p class="mb-0">Noches de jazz presenta: La mancha cuarteto</p>
+    </a>
+  </div>
+</div>
+      <!-- Cuarta Tarjeta -->
+      <div class="col-md-6 mb-4">
+  <div id="tarjeta-servicio" 
+       class="card text-center p-3 bg-success text-white h-100 mx-auto" 
+       style="width: 100%; max-width: 320px; height: auto;">
+    <a href="https://www.museotamayo.org/participa-2/servicio-social">
+      <p class="mb-1 fw-bold">Participa en nuestro programa de Servicio social :)</p>
+    </a>
+  </div>
+</div>
+    </div>
+  </div>
+
+        <!-- Columna Derecha: Imagen -->
+        <div id="luzia_paulo" class="col-lg-6 d-flex flex-column align-items-left col-xl-5">
+          <img style="height: 410px" src="../museotamayo/imagenes/menualado.jpg" alt="Luzia Paulo Nazareth" class="img-fluid mb-1 img-thumbnail">
+          <p class="text-muted fw-bold mb-0">03 Oct 2024 - 09 Feb 2025</p>
+          <h5 class="fw-bold text-left"><a href="https://www.museotamayo.org/exposiciones/luzia">Luzia Paulo Nazareth</a></h5>
+        </div>
+      </div>
+	   <div style="padding-top:40px">
+		   <h5 class="fw-bold text-left">PROXIMAMENTE</h5>
+	   </div>
+	    <div style="padding-top: 20px" class="row">
+			<div id="david_medalla" class="col-lg-6 d-flex flex-column align-items-left">
+          <img style="height: 385px;" src="../museotamayo/imagenes/2.png" alt="Luzia Paulo Nazareth" class="img-fluid mb-0 img-thumbnail">
+          <p class="text-muted fw-bold mb-0">14 Nov 2024 - 30 Mar 2025</p>
+          <h5 class="fw-bold text-left"><a href="https://www.museotamayo.org/exposiciones/en-conversacion-con-el-cosmos">David Medalla: En conversación con el cosmos</a></h5>
+        </div>
+			<div id="otros_mundos" class="col-lg-6 d-flex flex-column align-items-left">
+          <img style="height: 140px" src="../museotamayo/imagenes/otrosmas.gif" alt="Luzia Paulo Nazareth" class="img-fluid mb-1 img-thumbnail">
+          <p class="text-muted fw-bold mb-0">28 Nov 2024 - 23 Feb 2025</p>
+          <h5 class="fw-bold text-left"><a href="https://www.museotamayo.org/exposiciones/otr-s-mund-s">OTR^S MUND^S</a></h5>
+				
+			<img style="height: 180px" src="../museotamayo/imagenes/tamayomujeres.png" alt="Luzia Paulo Nazareth" class="img-fluid mb-1 img-thumbnail">
+          <p class="text-muted fw-bold mb-0">28 Nov 2024 - 23 Feb 2025</p>
+          <h5 style="color: aliceblue" class="fw-bold text-left"><a href="https://www.museotamayo.org/exposiciones/tamayo-mujeres">Tamayo: Mujeres</a></h5>
+        </div>	
+	   </div>
+	   
+	  <!-- Carrusel ----------------------------------------------------------------------------->
+	   <div style="padding-top: 40px">
+		   <div id="demo" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ul class="carousel-indicators">
+				<li data-target="#demo" data-slide-to="0" class="active"></li>
+				<li data-target="#demo" data-slide-to="1"></li>
+				<li data-target="#demo" data-slide-to="2"></li>
+				</ul>
+				<!-- The slideshow -->
+				<div class="carousel-inner">
+					
+				<div id="victoria_martinez" class="carousel-item active">
+				<img src="../museotamayo/imagenes/victoria.jpg" alt="VICTORIA" class="img-fluid">
+					<div class="carousel-caption">
+						<h3>Victoria Martinez</h3>
+						<p><b><a href="https://www.museotamayo.org/thebackroom/victoria-martinez">Ver ahora</a></b></p>
+						</div>
+				</div>
+				<div id="jenelle_esparza" class="carousel-item">
+				<img src="../museotamayo/imagenes/jenelle.jpg" alt="JENELLE" class="img-fluid">
+					<div class="carousel-caption">
+						<h3>Jenelle Esparza</h3>
+						<p><b><a href="https://www.museotamayo.org/thebackroom/jenelle-esparza">Ver ahora</a></b></p>
+						</div>
+				</div>
+				<div id="andre_keichian" class="carousel-item">
+				<img src="../museotamayo/imagenes/andre.jpg" alt="ANDRE" class="img-fluid">
+					<div class="carousel-caption">
+						<h3>Andre Keichian</h3>
+						<p><b><a href="https://www.museotamayo.org/thebackroom/andre-keichian">Ver ahora</a></b></p>
+						</div>
+				</div>
+				</div>
+				<!-- Left and right controls -->
+				<a class="carousel-control-prev" href="#demo" data-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+				</a>
+				<a class="carousel-control-next" href="#demo" data-slide="next">
+				<span class="carousel-control-next-icon"></span>
+				</a>
+</div>
+
+	   </div>
+	   <!-- Carrusel ----------------------------------------------------------------------------->
+   </main>
+	 
+	 <footer class="bg-light py-4">
+    <div class="container">
+        <div class="row">
+            <!-- Suscripción al newsletter -->
+            <div class="col-md-6 mb-4">
+                <form>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Suscríbete a nuestro newsletter" required>
+                    </div>
+                    <button type="submit" class="btn btn-danger w-100">SUSCRIBIRME</button>
+                </form>
+            </div>
+
+            <!-- Iconos y enlace de "Participa" -->
+            <div class="col-md-6 text-md-end text-center mt-3 mt-md-4">
+                <a href="#" class="me-3">
+
+                </a>
+                <a href="https://www.museotamayo.org/participa" class="btn btn-success">PARTICIPA</a>
+            </div>
+        </div>
+
+        <hr class="my-4">
+
+        <!-- Información institucional -->
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-3">
+                <img src="../museotamayo/imagenes/cultura.png" alt="Cultura" class="me-3 img-fluid" style="width: 360px;">
+                
+            </div>
+            <div class="col-lg-4 col-md-6 mb-3">
+                <h6 class="fw-bold">MUSEO TAMAYO</h6>
+                <p>
+                    Paseo de la Reforma 51<br>
+                    Bosque de Chapultepec<br>
+                    Miguel Hidalgo<br>
+                    C.P. 11580<br>
+                    <a href="https://maps.app.goo.gl/g3UvKFCLosP4zDvJ7">Mapa</a>
+                </p>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <h6 class="fw-bold">FORT</h6>
+                <ul class="list-unstyled">
+                    <li><a href="#">Fundación Olga y Rufino Tamayo</a></li>
+                    <li><a href="https://www.museotamayo.org/acerca">Directorio</a></li>
+                    <li><a href="https://www.museotamayo.org/acerca">Prensa</a></li>
+                    <li><a href="#">Aviso de privacidad</a></li>
+                </ul>
+                <h6 class="fw-bold mt-3">¡Síguenos en nuestras redes!</h6>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="https://www.instagram.com/eneltamayo/">Instagram</a></li>
+                    <li class="list-inline-item"><a href="https://www.facebook.com/museotamayo/">Facebook</a></li>
+                    <li class="list-inline-item"><a href="https://x.com/museotamayo">X</a></li>
+                    <li class="list-inline-item"><a href="https://www.youtube.com/channel/UCpM2k11OVKuBv9LSWwHsDIw">YouTube</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+  <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>
